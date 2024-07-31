@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   image: {
     width: 107,
     height: 147,
-    borderRadius: 10,
+    borderRadius: 11,
   },
   title: {
     fontSize: 20,
