@@ -1,15 +1,8 @@
-import { useState, useEffect } from 'react';
-import { getLatestGames } from '../library/metacritic';
-import {
-  FlatList,
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { GameCard } from './GameCard';
+import { useState, useEffect } from "react";
+import { getLatestGames } from "../library/metacritic";
+import { FlatList, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { GameCard } from "./GameCard";
 
 export function Main() {
   const [games, setGames] = useState([]);

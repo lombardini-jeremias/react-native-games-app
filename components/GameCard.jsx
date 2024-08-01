@@ -1,5 +1,5 @@
-import { Image, StyleSheet, Text, View } from 'react-native';
-import { Scores } from './Scores';
+import { Image, StyleSheet, Text, View } from "react-native";
+import { Scores } from "./Scores";
 
 export function GameCard({ game }) {
   return (
@@ -30,16 +30,16 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontWeight: 'bold',
-    color: 'white',
+    fontWeight: "bold",
+    color: "white",
   },
   score: {
     fontSize: 20,
-    fontWeight: 'bold',
-    color: 'yellow',
+    fontWeight: "bold",
+    color: "yellow",
   },
   description: {
     fontSize: 16,
-    color: 'white',
+    color: "white",
   },
 });
