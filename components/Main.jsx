@@ -15,7 +15,10 @@ export function Main() {
   }, []);
 
   return (
-    <View style={{ paddingTop: insets.top, paddingBottom: insets.bottom }}>
+    <View
+      className="bg-black"
+      style={{ paddingTop: insets.top, paddingBottom: insets.bottom }}
+    >
       <FlatList
         data={games}
         keyExtractor={(game) => game.slug}
